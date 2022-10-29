@@ -1,0 +1,16 @@
+#terraform workspace new Development
+#terraform workspace list
+
+#terraform workspace new UAT
+#terraform workspace list
+
+# terraform destroy for each workspace
+# terraform workspace select Development
+# terraform destroy -auto-approve
+
+# terraform workspace select UAT
+# terraform destroy -auto-approve
+
+# You can delete a workspace too
+# terraform workspace show
+# terraform workspace delete Development
